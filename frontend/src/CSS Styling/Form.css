@@ -1,0 +1,32 @@
+.h1{
+    text-align: left;
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+.Developer{
+    margin:3%;
+}
+
+.addDeveloperBtn{
+    background-color: cornflowerblue;
+    align-items: center;
+    justify-items: center;
+}
+.addDeveloperFirstNameInput{
+    width: 99%;
+}
+.addDeveloperLastNameInput{
+    width: 99%;
+
+}
+.dropDown{
+    width: 100%;
+}
+
+.Product{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
