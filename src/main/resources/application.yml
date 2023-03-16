@@ -1,0 +1,25 @@
+debug: true
+server:
+  port: 3000
+spring:
+  datasource:
+    url: jdbc:postgresql://mouse.db.elephantsql.com:5432/beeltgqm
+    username: beeltgqm
+    password: IbPYSDD4da04wtbhJfIpm6BGfDPzv73L
+  jpa:
+    defer-datasource-initialization: false
+    hibernate:
+      ddl-auto: update
+  sql:
+    init:
+      platform: postgresql
+      mode: always
+    output:
+      ansi:
+        enabled: always
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure: ERROR
